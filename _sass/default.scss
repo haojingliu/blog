@@ -1,0 +1,17 @@
+body {
+  background: $body-background-color;
+  color: $base-font-color;
+}
+h1 {
+  color: $title-color;
+}
+a {
+  color: $base-font-color;
+}
+.navbar {
+  background-color: $nav-background-color;
+  color: $nav-font-color;
+  a {
+    color: $nav-font-color;
+  }
+}

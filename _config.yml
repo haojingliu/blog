@@ -1,1 +1,6 @@
 baseurl: /blog
+show_drafts: false
+destination: _build
+sass:
+    sass_dir: _sass
+    style: :compressed
