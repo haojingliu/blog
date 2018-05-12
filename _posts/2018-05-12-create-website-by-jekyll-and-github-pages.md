@@ -1,8 +1,10 @@
 ---
 layout: post
-title: Jekyll+Github Pages 建站
+title: 使用Jekyll+Github Pages创建免费blog
 comments: true
-tags: Tech, Website
+category: misc
+permalink: /:year/:month/:day/:title
+tag: misc, tech
 ---
 
 个人博客托管在Github Pages上非常方便，只需要在github上建一个repo，然后每次push代码到ghpages这个branch就能自动上传到Github Pages。对程序员来说这是一个免费可自定义而且易于维护博客的方法。花了一天的时间总算弄的有点雏形，来和大家简单分享下。

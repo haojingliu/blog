@@ -2,19 +2,9 @@
 layout: default
 title:
 ---
-
-<ul>
+<h5 class="section-title">最近更新</h5>
+<ul class="list-unstyled">
     {% for post in site.posts %}
     <li> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} {{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-
-<ul style="display: none;">
-    {% for member in site.data.members %}
-    <li>
-        <a href="https://github.com/{{ member.github }}">
-            {{ member.name }}
-        </a>
-    </li>
     {% endfor %}
 </ul>

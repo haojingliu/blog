@@ -17,6 +17,9 @@
     </script>
 </head>
 <body>
+    {% if site.tags != "" %}
+        {% include collecttags.html %}
+    {% endif %}
     <nav class="navbar navbar-expand-lg ">
         <!-- Navbar content -->
         <a class="navbar-brand" href="{{ site.baseurl }}/index.html">文天青的自留地</a>
@@ -43,6 +46,9 @@
             <div class="col-lg-4">
                 <div class="section rounded">
                     {% include about.html %}
+                </div>
+                <div class="section rounded invisible">
+                    {% include tags.html %}
                 </div>
             </div>
         </div>

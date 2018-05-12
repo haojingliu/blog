@@ -24,4 +24,10 @@ a {
   border: 0.05rem solid $border-color;
   padding: 1rem;
   margin-bottom: 1rem;
+  ul {
+    margin: 0;
+  }
+}
+.section-title {
+  color: $section-title;
 }
