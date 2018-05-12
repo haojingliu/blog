@@ -162,7 +162,7 @@ h1 {
 ### 评论
 评论有多种插件可以支持，[disqus](https://disqus.com/admin/install/platforms/jekyll/)、gitment和gitalk，我使用了disqus方法。
 
-注册号disqus号后在body前添加下列代码。
+注册号disqus号后在body前添加下列代码，记得替换SHORTNAME。
 {% raw %}
 ```
 <div id="disqus_thread"></div>
@@ -184,7 +184,5 @@ s.setAttribute('data-timestamp', +new Date());
 ```
 {% endraw %}
 
-### 其他
-```
-jekyll serve --config "_config.yml,_config_dev.yml"
-```
+需要在[disqus高级设置](https://haojing.disqus.com/admin/settings/advanced/)里设置Trusted Domains，然后就可以使用了。
+未登陆用户也是可以直接评论的，不过看起来像"需要注册"了而已。

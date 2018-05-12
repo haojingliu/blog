@@ -1,4 +1,8 @@
 baseurl: /blog
+comments:
+  provider: disqus
+  disqus:
+    shortname: haojing
 show_drafts: false
 destination: _build
 sass:
