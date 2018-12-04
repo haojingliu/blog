@@ -1,0 +1,11 @@
+---
+layout: post
+title: 你不知道的JS Part II this和对象原型
+comments: true
+category: javascript
+permalink: /:year/:month/:day/:title
+tag: misc, javascript
+---
+
+###第一章 作用域是什么
+6
